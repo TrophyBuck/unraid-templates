@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/115034-trophybuck-support/</Support>
   <Project>https://redis.com/redis-enterprise/redis-insight/</Project>
   <Overview>RedisInsight - The GUI for Redis.</Overview>
   <Category>Tools:</Category>
