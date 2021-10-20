@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>RedisInsight</Name>
+  <Repository>redislabs/redisinsight:latest</Repository>
+  <Registry>https://hub.docker.com/r/redislabs/redisinsight</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://redis.com/redis-enterprise/redis-insight/</Project>
+  <Overview>RedisInsight - The GUI for Redis.</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8001]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/TrophyBuck/redisinsight/main/RedisInsight%20Logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1634694341</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>RedisInsight - The GUI for Redis.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8001</HostPort>
+        <ContainerPort>8001</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="Host Port 1" Target="8001" Default="" Mode="tcp" Description="Container Port: 8001" Type="Port" Display="always" Required="true" Mask="false">8001</Config>
+</Container>
